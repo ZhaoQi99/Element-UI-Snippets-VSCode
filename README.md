@@ -109,6 +109,15 @@ Go to the [git](https://github.com/snowffer/Element-UI-Snippets-VSCode) and down
 |6. | `elp` | `<el-pagination>` |
 |7. | `elba` | `<el-badge>` |
 |8. | `elav` | `<el-avatar>` |
+|9. | `elsk` | `<el-skeleton>` |
+|10. | `elski` | `<el-el-skeleton-item>` |
+|11. | `elem` | `<el-empty>` |
+|12. | `elde` | `<el-descriptions>` |
+|13. | `eldei` | `<el-descriptions-item>` |
+|14. | `elre` | `<el-result>` |
+|15. | `elstat` | `<el-statistic>` |
+
+
 
 #### Notice Part
 

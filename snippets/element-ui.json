@@ -743,6 +743,79 @@
         "description": "Element UI <el-avatar>"
     },
 
+    "Data: Skeleton": {
+        "prefix": "elsk",
+        "body": [
+            "<el-skeleton :rows=\"${1}\" animated />",
+            "${2}"
+        ],
+        "description": "Element UI <el-skeleton>"
+    },
+
+    "Data: Skeleton Item": {
+        "prefix": "elski",
+        "body": [
+            "<el-skeleton-item variant=\"${1|p,h1,h3,text,caption,button,image,circle,rect|}\" style=\"${2}\" />",
+            "${3}"
+        ],
+        "description": "Element UI <el-skeleton-item>"
+    },
+
+    "Data: Empty": {
+        "prefix": "elem",
+        "body": [
+            "<el-empty description=\"${1}\" :image-size=\"${2}\"></el-empty>",
+            "${3}"
+        ],
+        "description": "Element UI <el-empty>"
+    },
+
+    "Data: Descriptions": {
+        "prefix": "elde",
+        "body": [
+            "<el-descriptions title=\"${1}\" direction=\"${2|vertical,horizontal|}\" :column=\"${3}\" border>",
+            "${4}"
+        ],
+        "description": "Element UI <el-descriptions>"
+    },
+
+    "Data: Descriptions Item": {
+        "prefix": "eldei",
+        "body": [
+            "<el-descriptions-item label=\"${1}\" :span=\"${2}\">",
+            "${3}",
+            "</el-descriptions-item>",
+            "${4}"
+        ],
+        "description": "Element UI <el-descriptions-item>"
+    },
+
+    "Data: Result": {
+        "prefix": "elre",
+        "body": [
+            "<el-result icon=\"${1|success,warning,info,error|}\" title=\"${2}\" subTitle=\"${3}\">",
+            "\t<template slot=\"extra\">",
+            "\t${4}",
+            "\t</template>",
+            "</el-result>",
+            "${5}"
+        ],
+        "description": "Element UI <el-result>"
+    },
+
+    "Data: Statistic": {
+        "prefix": "elstat",
+        "body": [
+            "<el-statistic group-separator=\"${1}\" :precision=\"${2}\" :value=\"${3}\" :title=\"${4}\">",
+            "\t<template slot=\"${5|prefix,suffix,formatter,title|}\">",
+            "\t\t${6}",
+            "\t</template>",
+            "</el-statistic>",
+            "${7}"
+        ],
+        "description": "Element UI <el-statistic>"
+    },
+
     "Notice: Alert": {
         "prefix": "elal",
         "body": [

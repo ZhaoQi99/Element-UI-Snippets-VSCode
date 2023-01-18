@@ -1,3 +1,11 @@
+### 2023-01-17
+
+- add `elsk`,`elski` for `<el-skeleton>`,`<el-skeleton-item>`
+- add `elem` for `<el-empty>`
+- add `elde`,`eldei` for `<el-descriptions>`,`<el-descriptions-item>`
+- add `elre` for `<el-result>`
+- add `elstat` for `<el-statistic>`
+
 #### 2020-09-27
 
 - add `elhc` for hidden class names
