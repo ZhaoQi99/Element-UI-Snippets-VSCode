@@ -1,4 +1,4 @@
-### 2023-01-17
+### v2.0.0(2023-01-18)
 
 - add `elsk`,`elski` for `<el-skeleton>`,`<el-skeleton-item>`
 - add `elem` for `<el-empty>`

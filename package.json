@@ -1,40 +1,39 @@
 {
-  "name": "element-ui-snippets",
-  "displayName": "Element UI Snippets",
-  "version": "0.7.2",
-  "publisher": "SS",
-  "description": "Code snippets for Element-UI which is a Vue.js 2.0 UI Toolkit for Web",
+  "name": "element-vue-snippets",
+  "displayName": "Element UI Vue Snippets",
+  "version": "2.0.0",
+  "publisher": "qizhao",
+  "description": "A collection of snippets for Element UI based Vue 2.0",
   "author": {
-    "name": "Snowffer"
+    "name": "Qi Zhao",
+    "email": "zhaoqi99+marketplace@outlook.com"
   },
   "categories": [
     "Snippets"
   ],
-  "icon": "assets/logo.png",
+  "keywords": [
+    "Vue",
+    "Element UI"
+  ],
+  "icon": "assets/logo.jpg",
   "galleryBanner": {
     "color": "#549BFF",
     "theme": "dark"
   },
-  "activationEvents": [
-    "onLanguage:vuejs"
-  ],
   "engines": {
     "vscode": "^1.0.0"
   },
-  "main": "./out/extension",
   "devDependencies": {
     "vscode": "0.10.x"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/snowffer/Element-UI-Snippets-VSCode/issues",
-    "email": "snowell@126.com"
+    "url": "https://github.com/ZhaoQi99/Element-UI-Snippets-VSCode/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/snowffer/Element-UI-Snippets-VSCode.git"
+    "url": "https://github.com/ZhaoQi99/Element-UI-Snippets-VSCode.git"
   },
-  "homepage": "https://github.com/snowffer/Element-UI-Snippets-VSCode/blob/master/README.md",
   "contributes": {
     "snippets": [
       {
