@@ -774,7 +774,9 @@
         "prefix": "elde",
         "body": [
             "<el-descriptions title=\"${1}\" direction=\"${2|vertical,horizontal|}\" :column=\"${3}\" border>",
-            "${4}"
+            "${4}",
+            "</el-descriptions",
+            "${5}"
         ],
         "description": "Element UI <el-descriptions>"
     },
